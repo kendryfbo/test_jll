@@ -1,16 +1,4 @@
 {
- "groupings": [
- {
- "id": "test_grouping_1",
- "name": "Test Grouping 1"
- },
- {
- "id": "test_grouping_2",
- "name": "Test Grouping 2"
- }
- ]
-}
-{
     "resources": [{
         "id": "advanced-projects-lab",
         "groupingid": "test_grouping_1",
