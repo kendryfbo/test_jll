@@ -1,39 +1,37 @@
 {
-   "rooms":[
-      {
-         "id":1,
-         "metadata":{
-            "version":"1.0"
-         },
-         "content":[
-            {
-               "elementType":"detail",
-               "title":"Reserve a Room",
-               "subtitle":"Browse available Meeting Rooms from the list below to reserve it:",
-               "content":[
-                  {
-                     "elementType":"list",
-                     "grouped":false,
-                     "items":[
-                        {
-                           "title":"Internal Rooms",
-                           "link":{
-                              "relativePath":"?building=1"
-                           }
-                        },
-                        {
-                           "title":"External Rooms",
-                           "link":{
-                              "relativePath":"?building=2"
-                           }
+   "rooms":{
+      "id":1,
+      "metadata":{
+         "version":"1.0"
+      },
+      "content":[
+         {
+            "elementType":"detail",
+            "title":"Reserve a Room",
+            "subtitle":"Browse available Meeting Rooms from the list below to reserve it:",
+            "content":[
+               {
+                  "elementType":"list",
+                  "grouped":false,
+                  "items":[
+                     {
+                        "title":"Internal Rooms",
+                        "link":{
+                           "relativePath":"?building=1"
                         }
-                     ]
-                  }
-               ]
-            }
-         ]
-      }
-   ],
+                     },
+                     {
+                        "title":"External Rooms",
+                        "link":{
+                           "relativePath":"?building=2"
+                        }
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
    "External Rooms":[
       {
 
