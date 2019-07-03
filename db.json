@@ -1,54 +1,52 @@
 {
-   "rooms":[
-      {
-         "metadata":{
-            "version":"1.0"
-         },
-         "content":[
-            {
-               "elementType":"detail",
-               "title":"Reserve a Room",
-               "subtitle":"Browse available Meeting Rooms from the list below to reserve it:",
-               "content":[
-                  {
-                     "elementType":"list",
-                     "grouped":false,
-                     "items":[
-                        {
-                           "title":"BUILDING 1",
-                           "link":{
-                              "relativePath":"?building=1"
-                           }
-                        },
-                        {
-                           "title":"BUILDING 2",
-                           "link":{
-                              "relativePath":"?building=2"
-                           }
-                        },
-                        {
-                           "title":"BUILDING 3",
-                           "link":{
-                              "relativePath":"?building=3"
-                           }
-                        },
-                        {
-                           "title":"BUILDING 4",
-                           "link":{
-                              "relativePath":"?building=4"
-                           }
-                        },
-                        {
-                           "title":"BUILDING 5",
-                           "link":{
-                              "relativePath":"?building=5"
-                           }
+   "rooms":{
+      "metadata":{
+         "version":"1.0"
+      },
+      "content":[
+         {
+            "elementType":"detail",
+            "title":"Reserve a Room",
+            "subtitle":"Browse available Meeting Rooms from the list below to reserve it:",
+            "content":[
+               {
+                  "elementType":"list",
+                  "grouped":false,
+                  "items":[
+                     {
+                        "title":"BUILDING 1",
+                        "link":{
+                           "relativePath":"?building=1"
                         }
-                     ]
-                  }
-               ]
-            }
-         ]
-      }
-   ]
+                     },
+                     {
+                        "title":"BUILDING 2",
+                        "link":{
+                           "relativePath":"?building=2"
+                        }
+                     },
+                     {
+                        "title":"BUILDING 3",
+                        "link":{
+                           "relativePath":"?building=3"
+                        }
+                     },
+                     {
+                        "title":"BUILDING 4",
+                        "link":{
+                           "relativePath":"?building=4"
+                        }
+                     },
+                     {
+                        "title":"BUILDING 5",
+                        "link":{
+                           "relativePath":"?building=5"
+                        }
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
 }
