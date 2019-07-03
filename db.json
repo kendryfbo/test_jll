@@ -33,6 +33,7 @@
       ]
    },
    "External Rooms":{
+      "id":2,
       "metadata":{
          "version":"1.0"
       },
